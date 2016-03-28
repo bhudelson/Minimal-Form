@@ -96,7 +96,7 @@
 
 /* Visibility control of elements */
 .fs-form-full .fs-fields > li,
-.fs-nav-dots, 
+.fs-nav-dots,
 .fs-progress,
 .fs-numbers,
 button.fs-continue,
@@ -244,7 +244,7 @@ button.fs-continue,
 	border: none;
 	border-bottom: 2px solid rgba(0,0,0,0.2);
 	background-color: transparent;
-	color: #fffed8;
+	color: #fefefe;
 	text-overflow: ellipsis;
 	font-weight: bold;
 	font-size: 1.5em;
@@ -268,7 +268,7 @@ button.fs-continue,
 }
 
 .fs-fields input:focus {
-	background-color: #3b3f45; /* Fixes chrome bug with placeholder */
+	background-color: transparent; /* Fixes chrome bug with placeholder */
 }
 
 .fs-form-overview .fs-fields input:focus {
